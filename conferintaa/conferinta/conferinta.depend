@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1580342010 source:c:\users\user\desktop\conferintaa\conferinta\main.cpp
+	<iostream>
+	<stdlib.h>
+
+1580340477 source:c:\users\user\desktop\conferintaa\conferinta\src\participant.cpp
+	"Participant.h"
+
+1580340520 c:\users\user\desktop\conferintaa\conferinta\include\participant.h
+
+1580340625 source:c:\users\user\desktop\conferintaa\conferinta\src\roman.cpp
+	"Roman.h"
+
+1580340625 c:\users\user\desktop\conferintaa\conferinta\include\roman.h
+	<Participant.h>
+
+1580340721 source:c:\users\user\desktop\conferintaa\conferinta\src\francez.cpp
+	"Francez.h"
+
+1580340721 c:\users\user\desktop\conferintaa\conferinta\include\francez.h
+	<Participant.h>
+
+1580340789 source:c:\users\user\desktop\conferintaa\conferinta\src\german.cpp
+	"German.h"
+
+1580340789 c:\users\user\desktop\conferintaa\conferinta\include\german.h
+	<Participant.h>
+
+1580304722 source:c:\users\carnita\desktop\conferintaa\conferinta\src\francez.cpp
+	"Francez.h"
+
+1580304722 c:\users\carnita\desktop\conferintaa\conferinta\include\francez.h
+	<Participant.h>
+
+1580304522 c:\users\carnita\desktop\conferintaa\conferinta\include\participant.h
+
+1580304790 source:c:\users\carnita\desktop\conferintaa\conferinta\src\german.cpp
+	"German.h"
+
+1580304790 c:\users\carnita\desktop\conferintaa\conferinta\include\german.h
+	<Participant.h>
+
+1580304478 source:c:\users\carnita\desktop\conferintaa\conferinta\src\participant.cpp
+	"Participant.h"
+
+1580304626 source:c:\users\carnita\desktop\conferintaa\conferinta\src\roman.cpp
+	"Roman.h"
+
+1580304626 c:\users\carnita\desktop\conferintaa\conferinta\include\roman.h
+	<Participant.h>
+
+1580593401 source:c:\users\carnita\desktop\conferintaa\conferinta\main.cpp
+	<iostream>
+	<stdlib.h>
+	<vector>
+	"Participant.h"
+	"Roman.h"
+	"Francez.h"
+	"German.h"
+
