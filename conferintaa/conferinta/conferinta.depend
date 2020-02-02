@@ -81,7 +81,7 @@
 1580304626 c:\users\carnita\desktop\github\capitolul9\conferintaa\conferinta\include\roman.h
 	<Participant.h>
 
-1580673107 source:c:\users\carnita\desktop\github\capitolul9\conferintaa\conferinta\main.cpp
+1580677771 source:c:\users\carnita\desktop\github\capitolul9\conferintaa\conferinta\main.cpp
 	<iostream>
 	<stdlib.h>
 	<vector>
@@ -89,4 +89,10 @@
 	"Roman.h"
 	"Francez.h"
 	"German.h"
+
+1580675701 source:c:\users\carnita\desktop\github\capitolul9\conferintaa\conferinta\src\englez.cpp
+	"Englez.h"
+
+1580675701 c:\users\carnita\desktop\github\capitolul9\conferintaa\conferinta\include\englez.h
+	<Participant.h>
 
