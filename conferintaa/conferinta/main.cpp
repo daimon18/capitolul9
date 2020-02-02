@@ -42,6 +42,7 @@ int main()
             unsigned short b;
             cin>>b;
                 unsigned short roman=0,francez=0,german=0,alta=0;
+        while(b!=0){
         if (b!=0&&b<=3)
         {
             if(b==1){;pntParticipanti.push_back(CreeazaParticipant());}
@@ -61,13 +62,14 @@ int main()
                                                               cout<<francez<<" Francezi"<<endl;
                                                               cout<<alta<<" Altii"<<endl;}
                         system("pause");
-            }
+            }else if(b==3)
+            {
             system("CLS");
+            };
             Meniu();
             cout<<"Introduceti"<<endl;
              cin>>b;
-
-        }else cout<<"Introduceti din nou."<<endl;
+        }else cout<<"Introduceti din nou."<<endl;}
         pntParticipanti.clear();
     return 0;
 }
