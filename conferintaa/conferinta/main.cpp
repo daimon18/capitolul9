@@ -31,7 +31,7 @@ using namespace std;
         case 1:{Participant* concurent=new Roman();return concurent; break;}
         case 2:{Participant* concurent=new Francez();return concurent; break;}
         case 3:{Participant* concurent=new German();return concurent; break;}
-        case 4:{Participant* Altconcurent=new Participant();return Altconcurent; break;}
+        case 4:{Participant* concurent=new Participant();return concurent; break;}
     }
 
 }
@@ -43,15 +43,20 @@ int main()
         cout<<"Introduceti:"<<endl;
             unsigned short b;
             cin>>b;
-                if((b<1)&&(b>3))
+                //if((b<1)&&(b>3))
+                //{
+                  //  cout<<"Reintroduceti optiunea:"<<endl;
+                   // cin>>b;
+                //}
+                while((b!=1)&&(b!=2)&&(b!=3))
                 {
-                    cout<<"Reintroduceti optiunea:"<<endl;
+                    cout<<"Introduceti din nou: "<<endl;
                     cin>>b;
                 }
-                while(b!=0)
+                    unsigned short roman=0,francez=0,german=0,alta=0;
+                while(b!=3)
                 {
-                unsigned short roman=0,francez=0,german=0,alta=0;
-        if (b!=0&&b<=3)
+        if (b!=0&&b<=2)
         {
             if(b==1){;pntParticipanti.push_back(CreeazaParticipant());}
                 else if (b==2)
