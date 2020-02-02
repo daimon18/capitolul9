@@ -56,8 +56,7 @@ int main()
                     case 4: alta++;break;
                 }
                     if (roman>0||german>0||francez>0||alta>0) cout<<"Participanti inscrisi pana acum: "<<endl;
-
-                    if (roman>0||german>0||francez>0||alta>0) {cout<<roman<<" Romani"<<endl;
+                         if (roman>0||german>0||francez>0||alta>0) {cout<<roman<<" Romani"<<endl;
                                                               cout<<german<<" Germani"<<endl;
                                                               cout<<francez<<" Francezi"<<endl;
                                                               cout<<alta<<" Altii"<<endl;}
@@ -65,7 +64,8 @@ int main()
             }
             system("CLS");
             Meniu();
-            cin>>b;
+            cout<<"Introduceti"<<endl;
+             cin>>b;
 
         }else cout<<"Introduceti din nou."<<endl;
         pntParticipanti.clear();
