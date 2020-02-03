@@ -11,5 +11,5 @@ Participant::~Participant()
 }
 int Participant::Vorbeste()
 {
-    return Limba{engleza};
+    return  Limba{engleza};
 }

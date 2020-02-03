@@ -10,7 +10,7 @@ class Participant
        virtual int Vorbeste();
 
     protected:
-        enum Limba{engleza,romana,germana,franceza};
+        enum  Limba{engleza,romana,germana,franceza};
 
     private:
 };

@@ -20,8 +20,8 @@ using namespace std;
     system("CLS");
     cout<<"Alegeti nationalitatea:"<<endl;
     cout<<"0. Roman"<<endl;
-    cout<<"1. Francez"<<endl;
-    cout<<"2. German"<<endl;
+    cout<<"1. German"<<endl;
+    cout<<"2. Francez"<<endl;
     cout<<"3. Alta"<<endl;
     cout<<"Introduceti nationalitatea:"<<endl;
     unsigned short a;
@@ -29,12 +29,12 @@ using namespace std;
     switch (a)
     {
         case 0:{Participant* concurent=new Roman();return concurent; break;}
-        case 1:{Participant* concurent=new Francez();return concurent; break;}
-        case 2:{Participant* concurent=new German();return concurent; break;}
+        case 1:{Participant* concurent=new German();return concurent; break;}
+        case 2:{Participant* concurent=new Francez();return concurent; break;}
         case 3:{Participant* concurent=new Participant();return concurent; break;}
 
     }
-
+return 0;
 }
 int main()
 {
@@ -54,7 +54,7 @@ int main()
                     cout<<"Introduceti din nou: "<<endl;
                     cin>>b;
                 }
-                    unsigned short roman=0,francez=0,german=0,alta=0;
+                    unsigned short roman=0,german=0,francez=0,alta=0;
                 while(b!=3)
                 {
         if (b!=0&&b<=2)
@@ -75,6 +75,7 @@ int main()
                                                               cout<<german<<" Germani"<<endl;
                                                               cout<<francez<<" Francezi"<<endl;
                                                               cout<<alta<<" Altii"<<endl;}
+                        pntParticipanti.clear();
                         system("pause");
                 }
             system("CLS");

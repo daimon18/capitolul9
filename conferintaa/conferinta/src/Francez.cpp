@@ -11,5 +11,5 @@ Francez::~Francez()
 }
 int Francez::Vorbeste()
 {
-    return Limba(franceza);
+    return  Limba(franceza);
 }
