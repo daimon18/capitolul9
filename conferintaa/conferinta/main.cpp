@@ -60,7 +60,7 @@ int main()
         if (b!=0&&b<=2)
         {
             if(b==1){;pntParticipanti.push_back(CreeazaParticipant());}
-                else if (b==2)//aici e greseala
+                else if (b==2)
                 {system("CLS");
                 for(unsigned int idx=0; idx<pntParticipanti.size();++idx)
                     switch (pntParticipanti[idx]->Vorbeste())
